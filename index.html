@@ -15,7 +15,7 @@
     <header class="header">
         <div class="header__container container">
             <nav class="header__navigation">
-                <a href="#" class="logo"><span>Web</span>Studio</a>
+                <a href="#" class="logo"><div>Web</div>Studio</a>
                 <ul class="menu__links">
                     <li class="menu__items"><a href="#" class="menu__link menu__link_active">Студія</a></li>
                     <li class="menu__items"><a href="portfolio.html" class="menu__link">Портфоліо</a></li>
@@ -319,7 +319,7 @@
     <footer class="footer">
         <div class="footer__container container">
             <div class="footer__address-box">
-                <a href="#" class="logo"><span>Web</span>Studio</a>
+                <a href="#" class="logo"><div>Web</div>Studio</a>
                 <address>
                     <ul class="addres__items">
                         <li class="addres__links"><a href="#" class="footer__addres">м. Київ, пр-т Лесі Українки, 26</a></li>
@@ -363,10 +363,10 @@
             </div>
             <form action="#" class="footer-form">
                 <b class="footer-form__action">Підпишіться на розсилку</b>
-                <span>
+                <div>
                     <input class="footer-form__input" type="email" name="mail" id="userEmail" placeholder="E-mail">
                     <label for="userEmail"></label>
-                </span>
+                </div>
                 <button type="submit" class="footer-form__button">Підписатися
                     <svg width="24" height="24">
                         <use href="./img/sprite.svg#icon-send"></use>
@@ -381,37 +381,37 @@
                 <b class="form-modal__action">Залиште свої дані, ми вам передзвонимо</b>
                 <div class="form-modal__field">
                     <label class="form-modal__lable" for="userName">Ім'я</label>
-                    <span>
-                        <input type="text" name="name" id="userName" class="form-modal__input">
+                    <div>
+                        <input type="text" name="name" id="userName" class="form-modal__input" required>
                         <svg class="form-modal__icon" width="18" height="18">
                             <use href="./img/sprite.svg#icon-person"></use>
                         </svg>
-                    </span>
+                    </div>
                 </div>
                 <div class="form-modal__field">
                     <label class="form-modal__lable" for="userPhone">Телефон</label>
-                    <span>
-                        <input type="phone" name="phone" id="userPhone" class="form-modal__input">
+                    <div>
+                        <input type="phone" name="phone" id="userPhone" class="form-modal__input" required>
                         <svg class="form-modal__icon" width="18" height="18">
                             <use href="./img/sprite.svg#icon-phone"></use>
                         </svg>
-                    </span>
+                    </div>
                 </div>
                 <div class="form-modal__field">
                     <label class="form-modal__lable" for="userMail">Пошта</label>
-                    <span>
-                        <input type="email" name="mail" id="userMail" class="form-modal__input">
+                    <div>
+                        <input type="email" name="mail" id="userMail" class="form-modal__input" required>
                         <svg class="form-modal__icon" width="18" height="18">
                             <use href="./img/sprite.svg#icon-email"></use>
                         </svg>
-                    </span>
+                    </div>
                 </div>
-                <div class="form-modal__field form-modal__field_textarea">
+                <div class="form-modal__field_textarea">
                     <label class="form-modal__lable" for="userComment">Коментар</label>
                     <textarea class="form-modal__textarea" name="comment" id="userComment" placeholder="Введіть текст"></textarea>
                 </div>
-                <div class="form-modal__field form-modal__field_checkbox">
-                    <input class="form-modal__checkbox" type="checkbox" name="policy" id="policyTerms">
+                <div class="form-modal__field_checkbox">
+                    <input class="form-modal__checkbox" type="checkbox" name="policy" id="policyTerms" required>
                     <label class="form-modal__lable-checkbox" for="policyTerms">Погоджуюся з розсилкою та приймаю&#160;<a href="#">Умови договору</a></label>
                 </div>
                 <button class="form-modal__button" type="submit">Відправити</button>
