@@ -15,7 +15,7 @@
     <header class="header">
         <div class="header__container container">
             <nav class="header__navigation">
-                <a href="#" class="logo"><div>Web</div>Studio</a>
+                <a href="#" class="logo"><span>Web</span>Studio</a>
                 <ul class="menu__links">
                     <li class="menu__items"><a href="#" class="menu__link menu__link_active">Студія</a></li>
                     <li class="menu__items"><a href="portfolio.html" class="menu__link">Портфоліо</a></li>
@@ -319,7 +319,7 @@
     <footer class="footer">
         <div class="footer__container container">
             <div class="footer__address-box">
-                <a href="#" class="logo"><div>Web</div>Studio</a>
+                <a href="#" class="logo"><span>Web</span>Studio</a>
                 <address>
                     <ul class="addres__items">
                         <li class="addres__links"><a href="#" class="footer__addres">м. Київ, пр-т Лесі Українки, 26</a></li>
@@ -363,15 +363,16 @@
             </div>
             <form action="#" class="footer-form">
                 <b class="footer-form__action">Підпишіться на розсилку</b>
-                <div>
+                <div class="footer-form__container">
                     <input class="footer-form__input" type="email" name="mail" id="userEmail" placeholder="E-mail">
                     <label for="userEmail"></label>
+                    <button type="submit" class="footer-form__button">Підписатися
+                        <svg width="24" height="24">
+                            <use href="./img/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
                 </div>
-                <button type="submit" class="footer-form__button">Підписатися
-                    <svg width="24" height="24">
-                        <use href="./img/sprite.svg#icon-send"></use>
-                    </svg>
-                </button>
+                
             </form>
         </div>
     </footer>
@@ -391,7 +392,7 @@
                 <div class="form-modal__field">
                     <label class="form-modal__lable" for="userPhone">Телефон</label>
                     <div>
-                        <input type="phone" name="phone" id="userPhone" class="form-modal__input" required>
+                        <input type="tel" name="phone" id="userPhone" class="form-modal__input" required>
                         <svg class="form-modal__icon" width="18" height="18">
                             <use href="./img/sprite.svg#icon-phone"></use>
                         </svg>

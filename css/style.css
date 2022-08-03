@@ -562,6 +562,9 @@ img {
   text-transform: uppercase;
   color: var(--white);
 }
+.footer-form__container {
+  display: flex;
+}
 .footer-form__input {
   box-sizing: border-box;
   width: 358px;
@@ -582,6 +585,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
+  border: 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -669,7 +673,7 @@ img {
 }
 
 .form-modal__field_checkbox {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 .form-modal__checkbox {
   appearance: none;
@@ -735,4 +739,5 @@ img {
   color: var(--hover);
   background-color: var(--white);
   border-color: var(--hover);
+  border-width: 1px;
 }
